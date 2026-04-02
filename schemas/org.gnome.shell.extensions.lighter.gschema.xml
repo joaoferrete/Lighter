@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="lighter">
+  <schema id="org.gnome.shell.extensions.lighter" path="/org/gnome/shell/extensions/lighter/">
+    <key name="enabled" type="b">
+      <default>true</default>
+      <summary>Whether the light bars are active.</summary>
+    </key>
+    <key name="thickness" type="i">
+      <default>50</default>
+      <summary>The thickness of the white borders in pixels.</summary>
+      <range min="5" max="500"/>
+    </key>
+    <key name="opacity" type="d">
+      <default>0.9</default>
+      <summary>The opacity of the light bars.</summary>
+    </key>
+    <key name="color" type="s">
+      <default>'#ffffff'</default>
+      <summary>The color of the light bars (RGB Hex).</summary>
+    </key>
+    <key name="multi-monitor" type="b">
+      <default>true</default>
+      <summary>Whether to show the borders on all monitors.</summary>
+    </key>
+    <key name="temperature" type="i">
+      <default>50</default>
+      <summary>Color temperature (0=Warm, 100=Cold).</summary>
+    </key>
+    <key name="maximize-brightness" type="b">
+      <default>true</default>
+      <summary>Whether to maximize screen brightness when active.</summary>
+    </key>
+    <key name="open-prefs-shortcut" type="as">
+      <default>['&lt;Control&gt;&lt;Alt&gt;l']</default>
+      <summary>Keyboard shortcut to open preferences.</summary>
+    </key>
+  </schema>
+</schemalist>

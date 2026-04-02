@@ -1,0 +1,9 @@
+{
+  "name": "Lighter",
+  "description": "Improve videocall lighting with adjustable white screen borders.",
+  "uuid": "lighter@gnome-shell-extensions.ferrete.com",
+  "shell-version": [ "45", "46", "47" ],
+  "settings-schema": "org.gnome.shell.extensions.lighter",
+  "url": "https://github.com/ferrete/Lighter",
+  "version": 1
+}
