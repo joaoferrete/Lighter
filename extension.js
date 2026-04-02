@@ -22,9 +22,6 @@ const LightBorder = GObject.registerClass(
     class LightBorder extends Clutter.Actor {
         _init(params) {
             super._init(params);
-            this.set_background_color(new Clutter.Color({
-                red: 255, green: 255, blue: 255, alpha: 255
-            }));
             this.set_reactive(false); // Click-through
         }
     }

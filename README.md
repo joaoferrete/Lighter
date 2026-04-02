@@ -67,7 +67,3 @@ If the extension shows as ERROR state after code changes, you must restart GNOME
 ```bash
 journalctl /usr/bin/gnome-shell -b | grep -i lighter
 ```
-
-## License
-Licensed under the [GNU General Public License v3.0](LICENSE).
-
