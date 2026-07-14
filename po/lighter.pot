@@ -1,0 +1,243 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the lighter package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: lighter\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-14 11:00-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: lib/indicator.js:57 preferences/generalPage.js:30
+msgid "Active"
+msgstr ""
+
+#: lib/indicator.js:66
+msgid "Profile"
+msgstr ""
+
+#: lib/indicator.js:69
+msgid "Auto-switch profile"
+msgstr ""
+
+#: lib/indicator.js:78 preferences/generalPage.js:149
+msgid "Temperature"
+msgstr ""
+
+#: lib/indicator.js:90
+msgid "Settings"
+msgstr ""
+
+#: preferences/generalPage.js:18 preferences/generalPage.js:24
+msgid "General"
+msgstr ""
+
+#: preferences/generalPage.js:25
+msgid "Control the main lighting parameters"
+msgstr ""
+
+#: preferences/generalPage.js:31
+msgid "Turn the screen borders on or off"
+msgstr ""
+
+#: preferences/generalPage.js:37
+msgid "Maximize Brightness"
+msgstr ""
+
+#: preferences/generalPage.js:38
+msgid "Automatically set screen brightness to 100% when active"
+msgstr ""
+
+#: preferences/generalPage.js:44
+msgid "Opacity"
+msgstr ""
+
+#: preferences/generalPage.js:45
+msgid "Adjust the brightness of the light"
+msgstr ""
+
+#: preferences/generalPage.js:57
+msgid "Thickness"
+msgstr ""
+
+#: preferences/generalPage.js:58
+msgid "Width of each border in pixels; 0 disables that side"
+msgstr ""
+
+#: preferences/generalPage.js:63
+msgid "Link sides"
+msgstr ""
+
+#: preferences/generalPage.js:64
+msgid "Changing one side updates all sides"
+msgstr ""
+
+#: preferences/generalPage.js:70
+msgid "Top"
+msgstr ""
+
+#: preferences/generalPage.js:71
+msgid "Bottom"
+msgstr ""
+
+#: preferences/generalPage.js:72
+msgid "Left"
+msgstr ""
+
+#: preferences/generalPage.js:73
+msgid "Right"
+msgstr ""
+
+#: preferences/generalPage.js:121
+msgid "Appearance"
+msgstr ""
+
+#: preferences/generalPage.js:126
+msgid "Color"
+msgstr ""
+
+#: preferences/generalPage.js:127
+msgid "Choose the color of the borders (Default: White)"
+msgstr ""
+
+#: preferences/generalPage.js:150
+msgid "Adjust the color from Warm to Cold (Only if color is White)"
+msgstr ""
+
+#: preferences/generalPage.js:161
+msgid "Multi-Monitor"
+msgstr ""
+
+#: preferences/generalPage.js:162
+msgid "Show borders on all connected screens"
+msgstr ""
+
+#: preferences/profilesPage.js:33 preferences/profilesPage.js:48
+msgid "Cancel"
+msgstr ""
+
+#: preferences/profilesPage.js:34
+msgid "Save"
+msgstr ""
+
+#: preferences/profilesPage.js:49 preferences/profilesPage.js:247
+msgid "Delete"
+msgstr ""
+
+#: preferences/profilesPage.js:72 preferences/profilesPage.js:78
+msgid "Profiles"
+msgstr ""
+
+#: preferences/profilesPage.js:79
+msgid "Save the current settings as a named profile and switch between them"
+msgstr ""
+
+#: preferences/profilesPage.js:83
+msgid "Create a profile from the current settings"
+msgstr ""
+
+#: preferences/profilesPage.js:88
+msgid "New Profile"
+msgstr ""
+
+#: preferences/profilesPage.js:95
+msgid "Automatic Switching"
+msgstr ""
+
+#: preferences/profilesPage.js:96
+msgid "Apply profiles automatically based on the focused window"
+msgstr ""
+
+#: preferences/profilesPage.js:101
+msgid "Auto-switch profiles"
+msgstr ""
+
+#: preferences/profilesPage.js:102
+msgid "Watch the focused window and apply the first matching profile"
+msgstr ""
+
+#: preferences/profilesPage.js:108
+msgid "Default profile"
+msgstr ""
+
+#: preferences/profilesPage.js:109
+msgid "Applied when no window rule matches"
+msgstr ""
+
+#: preferences/profilesPage.js:140
+msgid "Active profile"
+msgstr ""
+
+#: preferences/profilesPage.js:147
+msgid "Apply"
+msgstr ""
+
+#: preferences/profilesPage.js:156
+msgid "Name"
+msgstr ""
+
+#: preferences/profilesPage.js:171
+msgid "Auto-activate"
+msgstr ""
+
+#: preferences/profilesPage.js:172
+msgid "Apply this profile when a window below is focused"
+msgstr ""
+
+#: preferences/profilesPage.js:182
+msgid "Application IDs (comma-separated, e.g. firefox.desktop)"
+msgstr ""
+
+#: preferences/profilesPage.js:197
+msgid "Window title regex (e.g. Meet)"
+msgstr ""
+
+#: preferences/profilesPage.js:216
+msgid "Priority"
+msgstr ""
+
+#: preferences/profilesPage.js:217
+msgid "Higher priority wins when several rules match"
+msgstr ""
+
+#: preferences/profilesPage.js:234
+msgid "Update from current"
+msgstr ""
+
+#: preferences/profilesPage.js:235
+msgid "Overwrite this profile with the current settings"
+msgstr ""
+
+#: preferences/profilesPage.js:242
+msgid "Duplicate"
+msgstr ""
+
+#: preferences/profilesPage.js:253
+msgid "Delete Profile?"
+msgstr ""
+
+#: preferences/profilesPage.js:254
+#, javascript-format
+msgid "\"%s\" will be removed permanently."
+msgstr ""
+
+#: preferences/profilesPage.js:270
+msgid "None"
+msgstr ""
+
+#: preferences/profilesPage.js:297
+msgid "No profiles yet"
+msgstr ""
+
+#: preferences/profilesPage.js:298
+msgid "Use the + button to save the current settings as a profile"
+msgstr ""
