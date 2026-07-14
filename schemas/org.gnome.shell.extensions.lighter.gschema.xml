@@ -7,8 +7,32 @@
     </key>
     <key name="thickness" type="i">
       <default>50</default>
-      <summary>The thickness of the white borders in pixels.</summary>
+      <summary>Deprecated: single thickness for all sides. Migrated to the per-side thickness keys.</summary>
       <range min="5" max="500"/>
+    </key>
+    <key name="thickness-top" type="i">
+      <default>50</default>
+      <summary>Thickness of the top border in pixels (0 disables it).</summary>
+      <range min="0" max="500"/>
+    </key>
+    <key name="thickness-bottom" type="i">
+      <default>50</default>
+      <summary>Thickness of the bottom border in pixels (0 disables it).</summary>
+      <range min="0" max="500"/>
+    </key>
+    <key name="thickness-left" type="i">
+      <default>50</default>
+      <summary>Thickness of the left border in pixels (0 disables it).</summary>
+      <range min="0" max="500"/>
+    </key>
+    <key name="thickness-right" type="i">
+      <default>50</default>
+      <summary>Thickness of the right border in pixels (0 disables it).</summary>
+      <range min="0" max="500"/>
+    </key>
+    <key name="thickness-linked" type="b">
+      <default>true</default>
+      <summary>Whether changing one side's thickness updates all sides.</summary>
     </key>
     <key name="opacity" type="d">
       <default>0.9</default>
@@ -33,6 +57,26 @@
     <key name="open-prefs-shortcut" type="as">
       <default>['&lt;Control&gt;&lt;Alt&gt;l']</default>
       <summary>Keyboard shortcut to open preferences.</summary>
+    </key>
+    <key name="profiles" type="s">
+      <default>'[]'</default>
+      <summary>Saved profiles as a JSON document.</summary>
+    </key>
+    <key name="active-profile" type="s">
+      <default>''</default>
+      <summary>ID of the last applied profile (empty for custom settings).</summary>
+    </key>
+    <key name="default-profile" type="s">
+      <default>''</default>
+      <summary>Profile applied when auto-switching and no window rule matches.</summary>
+    </key>
+    <key name="auto-switch" type="b">
+      <default>false</default>
+      <summary>Whether to switch profiles automatically based on the focused window.</summary>
+    </key>
+    <key name="settings-version" type="i">
+      <default>1</default>
+      <summary>Internal settings format version, used for migrations.</summary>
     </key>
   </schema>
 </schemalist>

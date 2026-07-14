@@ -8,6 +8,8 @@
     "47"
   ],
   "settings-schema": "org.gnome.shell.extensions.lighter",
+  "gettext-domain": "lighter",
   "url": "https://github.com/joaoferrete/Lighter",
-  "version": 1
+  "version": 1,
+  "version-name": "2.0"
 }

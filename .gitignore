@@ -1,1 +1,5 @@
 .claude
+schemas/gschemas.compiled
+dist/
+node_modules/
+po/*.mo

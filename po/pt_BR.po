@@ -1,0 +1,184 @@
+# Brazilian Portuguese translation for the Lighter GNOME Shell extension.
+# Copyright (C) 2026 Joao Ferrete
+# This file is distributed under the same license as the lighter package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: lighter\n"
+"Report-Msgid-Bugs-To: https://github.com/joaoferrete/Lighter/issues\n"
+"PO-Revision-Date: 2026-07-13 11:30-0300\n"
+"Last-Translator: Joao Ferrete <joao.ferrete@cobli.co>\n"
+"Language-Team: Brazilian Portuguese\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "Active"
+msgstr "Ativo"
+
+msgid "Profile"
+msgstr "Perfil"
+
+msgid "Auto-switch profile"
+msgstr "Trocar perfil automaticamente"
+
+msgid "Temperature"
+msgstr "Temperatura"
+
+msgid "Settings"
+msgstr "Configurações"
+
+msgid "General"
+msgstr "Geral"
+
+msgid "Control the main lighting parameters"
+msgstr "Controle os principais parâmetros de iluminação"
+
+msgid "Turn the screen borders on or off"
+msgstr "Liga ou desliga as bordas da tela"
+
+msgid "Maximize Brightness"
+msgstr "Maximizar brilho"
+
+msgid "Automatically set screen brightness to 100% when active"
+msgstr "Define automaticamente o brilho da tela em 100% quando ativo"
+
+msgid "Opacity"
+msgstr "Opacidade"
+
+msgid "Adjust the brightness of the light"
+msgstr "Ajuste a intensidade da luz"
+
+msgid "Thickness"
+msgstr "Espessura"
+
+msgid "Width of each border in pixels; 0 disables that side"
+msgstr "Largura de cada borda em pixels; 0 desativa aquele lado"
+
+msgid "Link sides"
+msgstr "Vincular lados"
+
+msgid "Changing one side updates all sides"
+msgstr "Alterar um lado atualiza todos os lados"
+
+msgid "Top"
+msgstr "Superior"
+
+msgid "Bottom"
+msgstr "Inferior"
+
+msgid "Left"
+msgstr "Esquerda"
+
+msgid "Right"
+msgstr "Direita"
+
+msgid "Appearance"
+msgstr "Aparência"
+
+msgid "Color"
+msgstr "Cor"
+
+msgid "Choose the color of the borders (Default: White)"
+msgstr "Escolha a cor das bordas (padrão: branco)"
+
+msgid "Adjust the color from Warm to Cold (Only if color is White)"
+msgstr "Ajuste a cor de quente para fria (somente se a cor for branca)"
+
+msgid "Multi-Monitor"
+msgstr "Múltiplos monitores"
+
+msgid "Show borders on all connected screens"
+msgstr "Mostrar bordas em todas as telas conectadas"
+
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgid "Save"
+msgstr "Salvar"
+
+msgid "Delete"
+msgstr "Excluir"
+
+msgid "Profiles"
+msgstr "Perfis"
+
+msgid "Save the current settings as a named profile and switch between them"
+msgstr "Salve as configurações atuais como um perfil nomeado e alterne entre eles"
+
+msgid "Create a profile from the current settings"
+msgstr "Criar um perfil a partir das configurações atuais"
+
+msgid "New Profile"
+msgstr "Novo perfil"
+
+msgid "Automatic Switching"
+msgstr "Troca automática"
+
+msgid "Apply profiles automatically based on the focused window"
+msgstr "Aplica perfis automaticamente com base na janela em foco"
+
+msgid "Auto-switch profiles"
+msgstr "Trocar perfis automaticamente"
+
+msgid "Watch the focused window and apply the first matching profile"
+msgstr "Observa a janela em foco e aplica o primeiro perfil correspondente"
+
+msgid "Default profile"
+msgstr "Perfil padrão"
+
+msgid "Applied when no window rule matches"
+msgstr "Aplicado quando nenhuma regra de janela corresponde"
+
+msgid "Active profile"
+msgstr "Perfil ativo"
+
+msgid "Apply"
+msgstr "Aplicar"
+
+msgid "Name"
+msgstr "Nome"
+
+msgid "Auto-activate"
+msgstr "Ativação automática"
+
+msgid "Apply this profile when a window below is focused"
+msgstr "Aplica este perfil quando uma das janelas abaixo estiver em foco"
+
+msgid "Application IDs (comma-separated, e.g. firefox.desktop)"
+msgstr "IDs de aplicativos (separados por vírgula, ex.: firefox.desktop)"
+
+msgid "Window title regex (e.g. Meet)"
+msgstr "Regex do título da janela (ex.: Meet)"
+
+msgid "Priority"
+msgstr "Prioridade"
+
+msgid "Higher priority wins when several rules match"
+msgstr "A prioridade mais alta vence quando várias regras correspondem"
+
+msgid "Update from current"
+msgstr "Atualizar com as configurações atuais"
+
+msgid "Overwrite this profile with the current settings"
+msgstr "Sobrescreve este perfil com as configurações atuais"
+
+msgid "Duplicate"
+msgstr "Duplicar"
+
+msgid "Delete Profile?"
+msgstr "Excluir perfil?"
+
+msgid "\"%s\" will be removed permanently."
+msgstr "\"%s\" será removido permanentemente."
+
+msgid "None"
+msgstr "Nenhum"
+
+msgid "No profiles yet"
+msgstr "Nenhum perfil ainda"
+
+msgid "Use the + button to save the current settings as a profile"
+msgstr "Use o botão + para salvar as configurações atuais como um perfil"
